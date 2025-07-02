@@ -15,6 +15,16 @@ margin: auto
 
 }
 
+#hint {
+    position: relative;
+    top: -20%;
+    left: 40%;
+    font-size: x-large;
+}
+#hint.verpissdich {
+    display: none;
+}
+
 #score {
     position: relative;
     top: -90px;
@@ -63,8 +73,10 @@ margin: auto
 
     background-image: url("cactus.png");
     background-size: 20px 40px;
+}
 
-    animation: block 1s infinite linear;
+#cactus.play {
+    animation: block 1s infinite linear;,
 }
 
 @keyframes block {
